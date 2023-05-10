@@ -32,6 +32,7 @@ pipeline {
             steps {
                 echo 'Job Complete'
             }
+        }
         stage('Dummy Stage') {
             steps {
                 echo 'Dummy Stage'
